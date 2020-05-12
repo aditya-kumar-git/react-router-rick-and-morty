@@ -1,0 +1,145 @@
+a {
+	color: white;
+	text-decoration: none;
+}
+body {
+	font-family: sans-serif;
+	background-color: #202329;
+	font-size: 1.2vw;
+}
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav {
+	height: 7vh;
+
+	display: flex;
+	width: 95vw;
+}
+.navContainer {
+	width: 50%;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+}
+.homeSweetHome {
+	font-family: "Franklin Gothic Medium";
+	font-size: 10vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	width: 100%;
+	height: 91vh;
+}
+.characters {
+	display: grid;
+
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 95vw;
+}
+.characterBlock {
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 23.75vw;
+	cursor: default;
+}
+.cbContainer {
+	cursor: pointer;
+	background-color: #333333;
+	height: 90%;
+	width: 90%;
+	border-radius: 25px;
+	transition-duration: 400ms;
+	box-shadow: 5px 5px 10px black;
+	&:hover {
+		height: 95%;
+		width: 95%;
+		.cbcInfo {
+			height: 45%;
+		}
+		.cbcImage {
+			height: 55%;
+			.cbciName {
+				height: 0;
+				color: transparent;
+			}
+		}
+	}
+}
+.cbcImage {
+	border-radius: 25px 25px 0 0;
+
+	width: 100%;
+	height: 40%;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: flex-end;
+	transition-duration: 400ms;
+}
+.cbciName {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	transition-duration: 400ms;
+}
+.cbcInfo {
+	transition-duration: 400ms;
+	width: 100%;
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.ci {
+	font-size: 0.9vw;
+	height: 18%;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
+}
+.ciData {
+	color: coral;
+	text-align: end;
+}
+
+.epiBlock {
+	width: 60vw;
+	height: 20vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ebContainer {
+	text-align: center;
+	width: 80%;
+	height: 90%;
+	background-color: #333333;
+	border-radius: 20px;
+	font-size: 1.4vw;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	box-shadow: 5px 5px 10px black;
+	cursor: pointer;
+}
+.ebcName {
+	font-size: 2vw;
+	color: coral;
+	text-transform: uppercase;
+}

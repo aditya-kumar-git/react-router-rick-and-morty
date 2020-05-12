@@ -1,0 +1,233 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #202329;
+  font-size: 1.2vw;
+}
+
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav {
+  height: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95vw;
+}
+
+.navContainer {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+
+.homeSweetHome {
+  font-family: "Franklin Gothic Medium";
+  font-size: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  width: 100%;
+  height: 91vh;
+}
+
+.characters {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 95vw;
+}
+
+.characterBlock {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 23.75vw;
+  cursor: default;
+}
+
+.cbContainer {
+  cursor: pointer;
+  background-color: #333333;
+  height: 90%;
+  width: 90%;
+  border-radius: 25px;
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+  -webkit-box-shadow: 5px 5px 10px black;
+          box-shadow: 5px 5px 10px black;
+}
+
+.cbContainer:hover {
+  height: 95%;
+  width: 95%;
+}
+
+.cbContainer:hover .cbcInfo {
+  height: 45%;
+}
+
+.cbContainer:hover .cbcImage {
+  height: 55%;
+}
+
+.cbContainer:hover .cbcImage .cbciName {
+  height: 0;
+  color: transparent;
+}
+
+.cbcImage {
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 40%;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+}
+
+.cbciName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+}
+
+.cbcInfo {
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+  width: 100%;
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ci {
+  font-size: 0.9vw;
+  height: 18%;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
+}
+
+.ciData {
+  color: coral;
+  text-align: end;
+}
+
+.epiBlock {
+  width: 60vw;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ebContainer {
+  text-align: center;
+  width: 80%;
+  height: 90%;
+  background-color: #333333;
+  border-radius: 20px;
+  font-size: 1.4vw;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-shadow: 5px 5px 10px black;
+          box-shadow: 5px 5px 10px black;
+  cursor: pointer;
+}
+
+.ebcName {
+  font-size: 2vw;
+  color: coral;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=RickNMorty.css.map */
