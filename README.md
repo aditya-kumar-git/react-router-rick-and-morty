@@ -1,1 +1,2 @@
-React app for React Routing, Show all the characters and episodes of the TV series Rick and Morty
+## Visit the Website
+https://quizzical-lovelace-152829.netlify.app
